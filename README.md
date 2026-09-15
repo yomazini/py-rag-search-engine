@@ -81,6 +81,7 @@ Powered by [Boot.dev](https://boot.dev).
 
    ```bash
    uv sync
+   uv sync --extra ml --extra dev # Installs ML dependencies as well
    ```
 
 ---
