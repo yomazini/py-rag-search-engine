@@ -1,0 +1,24 @@
+{
+  "venvPath": ".",
+  "venv": ".venv",
+  "typeCheckingMode": "basic",
+  "reportAny": false,
+  "reportExplicitAny": false,
+  "reportMissingTypeArgument": false,
+  "reportMissingTypeStubs": false,
+  "reportUnknownArgumentType": false,
+  "reportUnknownMemberType": false,
+  "reportUnknownVariableType": false,
+  "reportUnknownParameterType": false,
+  "reportUnknownLambdaType": false,
+  "reportUnusedCallResult": false,
+  "reportUnannotatedClassAttribute": false,
+  "reportGeneralTypeIssues": false,
+  "reportUntypedBaseClass": false,
+  "reportPrivateUsage": false,
+  "executionEnvironments": [
+    {
+      "root": "cli"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Python bytecode & caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+.uv/
+
+# Local cache & computed binary indices
+cache/
+*.npy
+*.pkl
+*.tmp
+
+# Editor & IDE artifacts
+*.swp
+*.swo
+.vscode/
+.idea/
+.mypy_cache/

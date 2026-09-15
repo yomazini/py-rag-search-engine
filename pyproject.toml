@@ -1,0 +1,26 @@
+[project]
+name = "rag-search-engine"
+version = "0.1.0"
+description = "Rag Search Engine"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "nltk==3.9.1",
+    "numpy==2.3.3",
+    "openai>=3.13.0",
+    "pillow>=12.3.0",
+    "python-dotenv>=1.2.3",
+]
+
+[project.optional-dependencies]
+ml = ["sentence-transformers"]
+dev = ["pytest", "pytest-asyncio"]
+
+[tool.uv.sources]
+torch = { index = "pytorch-cpu" }
+
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true
+dependencies = ["nltk==3.9.1"]
